@@ -325,7 +325,7 @@ class towerDefense(Animation):
         except Exception:
             base_path = os.path.abspath(".")
         pygame.mixer.music.load(
-            os.path.join(base_path, "TaDa.wav"))  # Loading File Into Mixer
+            os.path.join(base_path, "audio/TaDa.wav"))  # Loading File Into Mixer
         pygame.mixer.music.play()   # Playing It In The Whole Device
         self.youWon = True
 
