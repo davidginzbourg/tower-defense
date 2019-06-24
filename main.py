@@ -253,8 +253,8 @@ class towerDefense(Animation):
                 self.init()
 
     def getRowCol(self, location):
-        row = int(round(location[1] / self.cellDim))
-        col = int(round(location[0] / self.cellDim))
+        row = int(math.floor(location[1] / self.cellDim))
+        col = int(math.floor(location[0] / self.cellDim))
         return (row, col)
 
     def checkCanBuyTower(self, towerDetails, row=0, col=0):
