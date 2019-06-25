@@ -1,7 +1,7 @@
 tower-defense
 =============
 
-A fresh take on the classic tower defense game. Made in Python (graphics with Tkinter) for Open Source course at Hebrew University of Jerusalem.
+A fresh take on the classic tower defense game. Made in Python (graphics with Tkinter) for the Open Source course at the Hebrew University of Jerusalem.
 
 
 Description
