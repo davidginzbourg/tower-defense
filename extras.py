@@ -31,7 +31,8 @@ class Shot:
         except Exception:
             base_path = os.path.abspath(".")
         pygame.mixer.music.load(
-            os.path.join(base_path, "audio/pew.wav"))  # Loading File Into Mixer
+            os.path.join(
+                base_path, "audio/pew.wav"))  # Loading File Into Mixer
         pygame.mixer.music.play()  # Playing It In The Whole Device
 
     def __repr__(self):
