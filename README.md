@@ -62,9 +62,7 @@ Enjoy playing Tower defense!!
 
 #About
 
-Visit
-[our personal webpage](wiki)
-to learn more.
+Visit [our personal webpage](https://github.com/opensource-ninjas/tower-defense/wiki) to learn more.
 
 
 
